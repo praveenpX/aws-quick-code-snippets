@@ -15,7 +15,7 @@ def lambda_handler(event, context):
        print(jsonData)
        
     rshardId = jsonData['KinesisBatchInfo']['shardId']
-    rstreamArn = 'my-data-stream'
+    rstreamName = 'my-data-stream'
     rstartSequenceNumber = jsonData['KinesisBatchInfo']['startSequenceNumber']
     rendSequenceNumber = jsonData['KinesisBatchInfo']['endSequenceNumber']
     rbatchSize = jsonData['KinesisBatchInfo']['batchSize']
