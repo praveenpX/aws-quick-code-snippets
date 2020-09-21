@@ -9,7 +9,7 @@ def lambda_handler(event, context):
     
     for record in event['Records']:
        payload=record["body"]
-       print("updated...15")
+       
        jsonData = json.loads(payload)
        
        print(jsonData)
