@@ -15,12 +15,12 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-
-//In the Program.cs file, you can use the following code snippet to load settings from 
-//appsettings.json file and also load aws profile from mac aws credentials location
-//DISCLAIMER: this is a sample snippet that is provide as is and is for informational
-//purposes only. Test it thoroughly before using it
-
+/*
+*In the Program.cs file, you can use the following code snippet to load settings from 
+*appsettings.json file and also load aws profile from mac aws credentials location
+*DISCLAIMER: this is a sample snippet that is provide as is and is for informational
+*purposes only. Test it thoroughly before using it
+*/
 
 using System;
 using Microsoft.Extensions.Configuration;
